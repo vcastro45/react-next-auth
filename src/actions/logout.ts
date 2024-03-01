@@ -1,7 +1,7 @@
 'use server'
 
-import { signIn } from '@/auth'
+import { signOut } from '@/auth'
 
-export async function logIn () {
-  return await signIn('github')
+export async function logOut () {
+  return await signOut()
 }
